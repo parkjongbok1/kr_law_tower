@@ -12,6 +12,59 @@
 @import url('https://fonts.googleapis.com/css2?family=Gelasio:wght@400;500;600;700&display=swap');
 /* font-family: 'Gelasio', serif; */
 
+
+/* ani */
+@keyframes load_R {
+  0%{
+    transform: translateX(-30px);
+    opacity: 0;
+  }
+  100%{
+    transform: translateX(-0);
+    opacity: 1;
+  }
+}
+@keyframes load_L {
+  0%{
+    transform: translatex(30px);
+    opacity: 0;
+  }
+  100%{
+    transform: translatex(-0);
+    opacity: 1;
+  }
+}
+@keyframes load_B_T {
+  0%{
+    margin-bottom: -30px;
+    opacity: 0;
+  }
+  100%{
+    margin-bottom: 0;
+    opacity: 1;
+  }
+}
+@keyframes load_H {
+  0%{
+    transform: translate(-50%, -30px);
+    opacity: 0;
+  }
+  100%{
+    transform: translate(-50%, 0);
+    opacity: 1;
+  }
+}
+@keyframes load_bg {
+  0%{
+    bottom: 0;
+    opacity: 0;
+  }
+  100%{
+    bottom: 35%;
+    opacity: 1;
+  }
+}
+
 /* scroll Event */
 .ani {
   opacity: 0;
