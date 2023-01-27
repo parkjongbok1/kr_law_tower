@@ -1,0 +1,458 @@
+.sec01.v_p_content{
+  height: 100vh;
+  background: url("../image/visual_bg.png") no-repeat center center;
+  background-size: cover;
+}
+.visual{
+  width: 64.6%;
+  height: calc(100vh - 100px);
+  margin-top: 100px;
+  background: url("../image/visual_cg.png") no-repeat center right;
+  background-size: cover;
+}
+.visual .title{
+  padding: 12% 0 0 7.3%;
+}
+.visual .title span{
+  display: block;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 26px;
+  color: #fff;
+}
+.visual .title h2{
+  font-size: 72px;
+  font-weight: 600;
+  line-height: 72px;
+  color: #fff;
+  margin-top: 21px;
+}
+.visual .title span.line{
+  width: 40px;
+  height: 1.5px;
+  background: #fff;
+  margin: 40px 0;
+}
+.visual .title img{}
+
+.premium{
+  width: 35.3%;
+  height: 600px;
+
+  position: absolute;
+  right: 6.5%;
+  bottom: 120px;
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+.premium .title{
+  /* margin-left: 150px; */
+}
+.premium .title img{}
+
+.premium_cont{
+  width: 100%;
+  height: 58%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.premium_cont .premium_arrow{
+  cursor: pointer;
+}
+.premium_cont .premium_arrow.premium_p{}
+.premium_cont .premium_arrow.premium_n{}
+
+.premium_cont .premium_slider{
+  width: 81.2%;
+  height: 100%;
+  border: 3px solid white;
+  box-sizing: border-box;
+}
+.premium_cont .premium_slider div{
+  width: 100%;
+  height: 100%;
+  background: #fff;
+}
+.premium_cont .premium_slider div img{
+  object-fit: cover;
+  font-size: 0;
+}
+
+.premium_s_title{
+  width: 440px;
+  height: 70px;
+  position: relative;
+  margin-left: 50px;
+}
+.premium_s_title .desc{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  transition: 0.3s;
+}
+.premium_s_title .desc.active{
+  opacity: 1;
+}
+.premium_s_title .desc .item{}
+.premium_s_title .desc .item span{
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 19px;
+  color: #fff;
+}
+.premium_s_title .desc .item h3{
+  font-size: 31px;
+  font-weight: 700;
+  line-height: 31px;
+  color: #fff;
+  margin-top: 13px;
+}
+
+.premium_s_title .desc .link{
+  width: 26%;
+  height: 43%;
+  position: relative;
+  z-index: 100;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid white;
+  border-radius: 50px;
+  background: rgba(255, 255, 255, 0);
+  transition: 0.3s;
+}
+.premium_s_title .desc .link span{
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  color: #fff;
+  margin-right: 5%;
+}
+.premium_s_title .desc .link img{}
+.premium_s_title .desc .link:hover{
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* location */
+.location{
+  height: 96.1vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.location .inner{
+  width: 79%;
+  height: 100%;
+  margin: 0 auto;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #d6dde7;
+  border-top: 0;
+  border-bottom: 0;
+}
+
+.lo_change_background{
+  width: 59.21%;
+  height: 67%;
+  background: url("../image/location00.jpg") no-repeat center center;
+  background-size: cover;
+  transition: 0.5s;
+  transition-delay: 0.3s;
+  position: relative;
+  /* transition: 0.3s; */
+}
+.lo_change_background:hover{
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.4);
+  transition: 0.3s;
+}
+.lo_change_background .point_box{
+  position: absolute;
+  left: -15px;
+  top: -15px;
+  width: 31px;
+  height: 31px;
+  background: #1a4079;
+}
+
+.lo_cont{
+  width: 36%;
+}
+.lo_cont .title{}
+.lo_cont .title span{
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: -1.5px;
+  color: #000000;
+  display: block;
+}
+.lo_cont .title h2{
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: -1.5px;
+  color: #1a4079;
+  margin: 22px 0 80px;
+}
+
+ul.lo_items{
+  height: 346px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ul.lo_items li.item{
+  cursor: pointer;
+}
+ul.lo_items li.item h3{
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -1.5px;
+  color: #353535;
+}
+ul.lo_items li.item h3 span{
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #1a4079;
+}
+ul.lo_items li.item p{
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: -1.5px;
+  color: #353535;
+}
+ul.lo_items li.item p:nth-of-type(1){
+  margin: 23px 0 12px;
+}
+ul.lo_items li.item p strong{
+  font-weight: 700;
+}
+
+ul.lo_items .line{
+  width: 100%;
+  height: 1px;
+  position: relative;
+  display: block;
+  background: #d6dde7;
+}
+ul.lo_items .line.p_line01::before{
+  content: "";
+  position: absolute;
+  right: -8px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 15px;
+  height: 15px;
+  background: #1a4079;
+}
+
+ul.lo_items .line.p_line02::before{
+  content: "";
+  position: absolute;
+  right: -11px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 21px;
+  height: 21px;
+  background: #c0a13e;
+}
+
+/* font-size: ;
+font-weight: ;
+line-height: ;
+letter-spacing: ;
+color: #; */
+
+/* banner */
+.banner{
+  height: 550px;
+  background: url("../image/banner_bg.png") no-repeat bottom center;
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.banner span{
+  display: block;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: -1.5px;
+  color: #fff;
+}
+.banner h2{
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 55px;
+  letter-spacing: -1.5px;
+  color: #fff;
+  margin-top: 15px;
+}
+.banner .line{
+  display: block;
+  width: 30px;
+  height: 1px;
+  background: #fff;
+  margin: 30px 0;
+}
+.banner img{}
+
+/* landmark */
+.landmark{
+  height: 104.6vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: url("../image/landmark_bg.png") no-repeat bottom left;
+  background-size: cover;
+}
+.landmark .title{
+  width: 75.7%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.landmark .title h2{
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: -1.2px;
+  color: #1a4079;
+}
+.landmark .title h2 span{
+  font-size: 29px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: -1px;
+  color: #454545;
+  margin-right: 8px;
+}
+.landmark .title a{
+  display: block;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -1.2px;
+  color: #000;  
+}
+
+.lan_cont{
+  width: 1500px;
+  max-width: 1500px;
+  min-width: 1200px;
+  height: 600px;
+  position: relative;
+  overflow: hidden;
+}
+.lan_slider{
+  width: 100%;
+  height: 100%;
+  background: #fff;
+}
+.lan_slider .item{
+  width: 100%;
+  height: 100%;
+  background: crimson;
+}
+.lan_slider .item.item01{}
+.lan_slider .item.item02{}
+.lan_slider .item.item03{}
+.lan_slider .item .bg{
+  transform: scale(1.03);
+  transition: transform 2s;
+  object-fit: cover;
+}
+.lan_slider .item.slick-current .bg{
+  transform: scale(1);
+}
+
+.progressBarContainer{
+  width: 93.2%;
+  /* margin: 32% auto 0; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+}
+.progressBarContainer::after{
+  content: "";
+  width: 1px;
+  height: 650px;
+  position: absolute;
+  left: 32%;
+  bottom: -60%;
+  background: white;
+  opacity: 0.3;
+}
+.progressBarContainer::before{
+  content: "";
+  width: 1px;
+  height: 650px;
+  position: absolute;
+  right: 32%;
+  bottom: -60%;
+  background: white;
+  opacity: 0.3;
+}
+.progressBarContainer div{
+  width: 28.6%;
+  cursor: pointer;
+  color: #fff;
+}
+.progressBarContainer div h3{
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: -1.2px;
+  font-family: 'Gelasio', serif;
+  text-transform: uppercase;
+}
+.progressBarContainer div p{
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  letter-spacing: -1.2px;
+  margin: 4% 0 9%;
+}
+.progressBarContainer div h3 strong{
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 500;
+  /* display: block; */
+}
+.progressBarContainer div span.progressBar {
+  width: 100%;
+  height: 2.5px;
+  background-color: rgba(255, 255, 255, 0.4);
+  display: block;
+}
+.progressBarContainer div span.progressBar .inProgress {
+  background-color: white;
+  width: 0%;
+  height: 2px;
+}
